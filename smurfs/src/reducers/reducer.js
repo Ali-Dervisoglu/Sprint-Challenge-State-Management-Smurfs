@@ -5,13 +5,14 @@ import {
     ADD_START,
     ADD_SUCCESS,
     ADD_FAIL
-    
+
 } from "../actions/actions"
 
 const initialState = {
     smurfs: [],
     isFetching: false,
     error: ""
+    
 }
 
 export const reducer = (state = initialState, action) => {
